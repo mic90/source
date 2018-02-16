@@ -779,6 +779,7 @@ wpa_supplicant_add_network() {
 	}
 
 	cat >> "$_config" <<EOF
+update_config=1
 network={
 	$scan_ssid
 	ssid="$ssid"
