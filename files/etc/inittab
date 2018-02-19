@@ -1,5 +1,5 @@
 ::sysinit:/etc/init.d/rcS S boot
 ::shutdown:/etc/init.d/rcS K shutdown
 # disable login prompt on serial port
-#::askconsole:/usr/libexec/login.sh
+::askconsole:/usr/libexec/login.sh
 
